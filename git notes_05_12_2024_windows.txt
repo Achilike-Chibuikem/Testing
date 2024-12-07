@@ -30,3 +30,9 @@ git checkout -- <file> - deletes current changes and resets the file to the last
 
 git log - to view the history of your git repository.
 
+git diff - shows you the difference between the files in the working area and the files that are already in the repository(previous and current snapshot). That is, it shoews what you added and removed from the file that is staged.
+
+git diff <commit1> <commit2> - to view the difference between two different commits.
+
+git commit -a - Commits all modified or deleted files that are already being tracked by Git (i.e., files that have been previously added to the repository). It automatically stages these changes before committing, so you don't have to run git add for those files.
+

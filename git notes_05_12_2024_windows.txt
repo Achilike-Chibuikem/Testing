@@ -28,3 +28,5 @@ git rm --cached <file> - to unstage a file. That is to remove it from the stagin
 
 git checkout -- <file> - deletes current changes and resets the file to the last committed state.
 
+git log - to view the history of your git repository.
+

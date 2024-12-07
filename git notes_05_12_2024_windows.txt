@@ -1,0 +1,30 @@
+git status - tells you if you are already in a git project(folder) or not.
+
+git init - initialises a git repository.
+
+touch <fileName.extention> - creates an empty file in the git repository.
+
+git config --global --add safe.directory <directoryName> - adds a repository to the safe.directory list so that repository can be recognised as safe.
+
+AREAS TO KEEP IN MIND WHEN WORKING WITH GIT.
+* working directory - this is where your project files are created.
+
+* staging area - a place where you can prepare changes before moving your files to the repository.
+
+* repository - where snapshots of your projects are saved.
+
+THE GIT ADD COMMAND
+* It is used to add changes in the working area in the staging area. That is if you are about to commit it to the repository.
+
+* to add individual files, you say git add fileName.extension.
+
+* git add . - adds all changes that has been made.
+
+* git add -u/--update - to stage any deleted item.
+
+* git add *.txt - to stage any file with the same extension.
+
+git rm --cached <file> - to unstage a file. That is to remove it from the staging area.
+
+git checkout -- <file> - deletes current changes and resets the file to the last committed state.
+

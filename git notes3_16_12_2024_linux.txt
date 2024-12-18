@@ -1,0 +1,11 @@
+DIFFERENT TYPES OF TAGS
+*lightweight tag - just a simple named reference to a commit.
+
+*annotation tag - more detailed with other information like name, email, timestamp, message and so on.
+
+*git tag -a v3.3 -m "<message>" - to specify a descriptive message for tag. Note that the version number can be as needed, i.e., 1.1, 1.4, 2.5, 10.7 or whatever.
+
+git show <tag_name> - used to show detailed information about specific git projects, typically commits.
+
+git tag --delete <tag_name> - used to delete a tag that is not needed again.
+

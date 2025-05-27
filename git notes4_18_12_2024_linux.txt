@@ -1,0 +1,12 @@
+git restore --staged <file> - is used to unstage a file, that is remove a file from the staging area.(applied since v2.23)
+
+git reset HEAD <file> - also unstages the file but is older than the command above.
+
+
+QUESTION - WHAT IS THE DIFFERENCE BTW THE FIRST AND SECOND COMMAND (i.e. HEAD and restore)?
+QUESTION 2 - WHAT DOES THE COMMAND "cat" DO?
+QUESTION 3 - WHAT IS THE DIFFERENCE BETWEEN GIT AND GITHUB?
+
+HOW TO REVERT TO LAST COMMIT IN git
+* git restore <file> - takes your modified file back to the previous commit. Use this command with caution, cause when the file is reverted back to a previous commit, you can't get the changes back (that is the reverted/deleted code).
+

@@ -18,6 +18,8 @@ THE GIT ADD COMMAND
 
 * to add individual files, you say git add fileName.extension.
 
+* git config --list
+
 * git add . - adds all changes that has been made.
 
 * git add -u/--update - to stage any deleted item.

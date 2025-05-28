@@ -1,0 +1,12 @@
+?* How do I remove a directory from safe.directory?
+
+?* What is the difference btw 'git tag' and 'git tag --list'?
+
+* git tag -l "v1*" - every thing that starts with 'v1' or what ever you put in it.
+
+?* What is the use of the 'vi' command in git?
+
+?* What is the meaning of the word annotated?
+
+* Gitbub - is a git repositories hosting service that has 'code collaboration' and 'version control' tools for repositories management.
+
